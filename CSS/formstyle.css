@@ -1,0 +1,90 @@
+.form{
+    max-width: 300px;
+    /* min-width: 300px; */
+    /* min-height: 500px; */
+    box-shadow: 0px 0 25px rgba(0, 0, 0, 0.075);
+    padding: 40px 30px;
+    border-radius: 10px;
+    flex: 1 1 auto;
+    background: #fff;
+}
+
+.title{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.title h3{
+    font-size: 26px;
+    /* margin-left: 12px; */
+    font-weight: 900;
+}
+.size2{
+    width: 40px;
+    height: auto;
+}
+
+.form-ele{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.form-ele input{
+    padding: 12px 30px;
+    /* border-radius: 3px; */
+    outline: none;
+    margin-bottom: 15px;
+    border: none;
+    border-bottom: 2px solid rgb(179, 179, 179);
+    /* position: relative; */
+    
+}
+.form-ele i{
+    /* position: absolute; */
+    /* background: red; */
+    transform: translate(2px, 28px);
+    width: fit-content;
+
+}
+.success-alert{
+    display: flex;
+    flex-direction: column;
+    background: rgba(65, 255, 17, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 13px;
+    justify-content: center;
+    align-items: center;
+    color: rgb(52, 211, 12);
+
+}
+.success-alert-err{
+    display: flex;
+    flex-direction: column;
+    background: rgba(255, 17, 17, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 13px;
+    justify-content: center;
+    align-items: center;
+    color: rgb(211, 12, 12);
+
+}
+
+.success-alert p {
+    /* margin-top: 10px; */
+}
+.form-ele button{
+    padding: 12px;
+    border-radius: 3px;
+    outline: none;
+    border: 2px solid rgb(26, 125, 253);
+    background: rgb(26, 98, 253);
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 16px;
+}
